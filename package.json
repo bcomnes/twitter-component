@@ -1,0 +1,23 @@
+{
+  "name": "twitter-component",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "bankai build index.js",
+    "inspect": "bankai inspect index.js",
+    "start": "bankai start index.js",
+    "test": "standard && test-deps",
+    "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
+  },
+  "dependencies": {
+    "choo": "^6.0.0-4",
+    "choo-devtools": "^1.3.1",
+    "choo-log": "^7.2.1",
+    "choo-service-worker": "^2.2.0",
+    "tachyons": "^4.8.0"
+  },
+  "devDependencies": {
+    "bankai": "^9.0.0-1",
+    "standard": "^10.0.3"
+  }
+}
