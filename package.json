@@ -1,14 +1,10 @@
 {
   "name": "twitter-component",
+  "description": "A native DOM component wrapper for embedded tweets",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "start": "budo example/basic.js --live --open",
-    "start:choo": "bankai start example/choo.js",
-    "test": "run-s test:*",
-    "test:deps": "dependency-check .",
-    "test:lint": "standard",
-    "test:browser": "browserify test.js | tape-run | tap-format-spec"
+  "author": "Bret Comnes",
+  "bugs": {
+    "url": "https://github.com/bcomnes/twitter-component/issues"
   },
   "dependencies": {
     "bel": "^5.0.3",
@@ -29,5 +25,32 @@
     "tape": "^4.7.0",
     "tape-run": "^3.0.0",
     "twitter-widgets": "^1.0.0"
+  },
+  "homepage": "https://github.com/bcomnes/twitter-component#readme",
+  "keywords": [
+    "bel",
+    "cache-component",
+    "choo",
+    "element",
+    "embed",
+    "nanocomponent",
+    "nanomorph",
+    "nanomorph",
+    "tweet",
+    "twitter"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcomnes/twitter-component.git"
+  },
+  "scripts": {
+    "start": "budo example/basic.js --live --open",
+    "start:choo": "bankai start example/choo.js",
+    "test": "run-s test:*",
+    "test:browser": "browserify test.js | tape-run | tap-format-spec",
+    "test:deps": "dependency-check .",
+    "test:lint": "standard"
   }
 }
