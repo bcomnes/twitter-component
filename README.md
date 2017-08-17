@@ -44,12 +44,12 @@ Native DOM component model powered by [nanocomponent][nc] and [nanomorph][nm].
 
 [0]: https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square
 [1]: https://nodejs.org/api/documentation.html#documentation_stability_index
-[2]: https://img.shields.io/npm/v/nanocomponent.svg?style=flat-square
-[3]: https://npmjs.org/package/nanocomponent
-[4]: https://img.shields.io/travis/choojs/nanocomponent/master.svg?style=flat-square
-[5]: https://travis-ci.org/choojs/nanocomponent
-[8]: http://img.shields.io/npm/dm/nanocomponent.svg?style=flat-square
-[9]: https://npmjs.org/package/nanocomponent
+[2]: https://img.shields.io/npm/v/twitter-component.svg?style=flat-square
+[3]: https://npmjs.org/package/twitter-component
+[4]: https://img.shields.io/travis/bcomnes/twitter-component/master.svg?style=flat-square
+[5]: https://travis-ci.org/bcomnes/twitter-component
+[8]: http://img.shields.io/npm/dm/twitter-component.svg?style=flat-square
+[9]: https://npmjs.org/package/twitter-component
 [10]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [11]: https://github.com/feross/standard
 [bel]: https://github.com/shama/bel
