@@ -27,5 +27,5 @@ test('render a tweet maybe', function (t) {
   window.setTimeout(function () {
     t.true(tweet.element.children[0].classList.contains('twitter-tweet'), 'A tweet iframe is added')
     t.end()
-  }, 200)
+  }, 1000)
 })
