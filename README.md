@@ -28,8 +28,14 @@ $ npm install twitter-component
 ### `TwitterComponent = require('twitter-component`)
 Import `TwitterComponent` component class.
 
-### `tweet = new TwitterComponent()`
-Create a new instance of the twitter component.  There are no options or arguments.
+### `tweet = new TwitterComponent([opts])`
+Create a new instance of the twitter component.  `opts` is an options objec that can have the following options:
+
+```js
+{
+  placeholder: true // Enables placeholder text while loading tweet cards
+}
+```
 
 ### `tweet.render(tweetURL)`
 Returns a div that, when mounted into the page, will be the target of `twttr.widgets.createTweet`.
