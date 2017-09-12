@@ -6,22 +6,32 @@
   "bugs": {
     "url": "https://github.com/bcomnes/twitter-component/issues"
   },
+  "browser": {
+    "assert": "nanoassert"
+  },
+  "browserify": {
+    "transform": [
+      "yo-yoify"
+    ]
+  },
   "dependencies": {
     "bel": "^5.0.3",
+    "nanoassert": "^1.1.0",
+    "nanocomponent": "^6.4.1",
     "on-idle": "^3.1.2",
     "url": "^0.11.0",
-    "nanocomponent": "^6.2.0"
+    "yo-yoify": "^3.7.3"
   },
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
     "bankai": "^9.0.0-1",
     "browserify": "^14.4.0",
     "budo": "^10.0.4",
-    "choo": "^6.0.0-4",
+    "choo": "^6.0.1",
     "dependency-check": "^2.9.1",
     "global": "^4.3.2",
     "nanomap": "^1.0.0",
-    "noauth-twitterfeed": "^1.0.2",
+    "noauth-twitterfeed": "^2.0.1",
     "npm-run-all": "^4.0.2",
     "standard": "^10.0.3",
     "tape": "^4.7.0",

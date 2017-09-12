@@ -48,7 +48,9 @@ function tweetStore (state, emitter) {
       state.input = val
     })
     emitter.on('update', function () {
-      twitterFeed(state.input, function (err, tweets) {
+      twitterFeed({
+        username: state.input
+      }, function (err, tweets) {
         if (err) {
           state.tweets = []
           state.err = err
