@@ -1,7 +1,7 @@
 {
   "name": "twitter-component",
   "description": "A native DOM component wrapper for embedded tweets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Bret Comnes",
   "bugs": {
     "url": "https://github.com/bcomnes/twitter-component/issues"
